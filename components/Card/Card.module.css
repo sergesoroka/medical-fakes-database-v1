@@ -1,0 +1,36 @@
+.cardWrap {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  gap: 4rem; */
+  margin-bottom: 16px;
+  padding-bottom: 32px;
+}
+
+.card {
+  padding: 0 0 1.2rem 0;
+  
+  transition: color 0.15s ease, border-color 0.15s ease;
+  border-bottom: 2px solid #3F4871;
+}
+
+.card:hover {
+  color: rgb(116, 0, 142)
+}
+
+.cardTitle {
+  font-weight: 200;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #3F4871;
+  /* cursor: pointer; */
+}
+
+
+
+@media (max-width: 600px) {
+  .cardWrap {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,20 @@
+.tagsLayout {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #A6E1FA;
+  color: #3F4871;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 4px;
+  padding: 4px 6px 3px 6px;
+  text-transform: uppercase;
+}
+
+.tagWrap {
+  display: flex;
+  margin: .2rem;
+}
