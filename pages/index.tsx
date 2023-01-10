@@ -8,7 +8,6 @@ import SectionLabel from "../components/SectionLabel/SectionLabel";
 import Link from "next/link";
 
 const Home: NextPage = () => {
-  // const vox_article_id: string[] = articlesData.slice(0, 2).map(item => item.vox_article_id)
   return (
     <div className={styles.mainContent}>
       <div className={styles.fakes}>
