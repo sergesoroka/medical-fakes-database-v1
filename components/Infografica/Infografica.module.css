@@ -2,6 +2,9 @@
   margin-top: 2rem;
 }
 .imageWrap {
-  width: 500px;
+  position: "relative";
+  margin-left: -48px;
   height: auto;
+  object-fit: contain;
+  overflow: hidden;
 }

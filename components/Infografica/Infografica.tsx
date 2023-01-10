@@ -11,11 +11,11 @@ const Infografica = ({ infographic_id }: { infographic_id: string }) => {
   const { locale } = router;
 
   const data =
-  locale == "en"
-    ? infograficsDataEn
-    : locale == "ru"
-    ? infograficsDataRu
-    : infograficsData;
+    locale == "en"
+      ? infograficsDataEn
+      : locale == "ru"
+      ? infograficsDataRu
+      : infograficsData;
 
   const infoRender = data.map((item) => {
     // @ts-ignore
@@ -25,14 +25,20 @@ const Infografica = ({ infographic_id }: { infographic_id: string }) => {
         // <img src={item.infographic_link} height="373" width="660" alt='infigrafica/>
         // @ts-ignore
         <div className={styles.imageWrap} key={item.infographic_id}>
-        <Image
-          key={infographic_id}
-          src={item.infographic_link}
-          width="640"
-          height="360"
-          
-          alt="Infografic"
-        /></div>
+          <Image
+            key={infographic_id}
+            src={item.infographic_link}
+            width="540"
+            height="250"
+          //   sizes="(max-width: 768px) 100vw,
+          // (max-width: 1200px) 50vw,
+          // 33vw"
+            layout='fixed'
+            objectFit='contain'
+            // style={{ width: "auto", height: "250px" }}
+            alt="Infografic"
+          />
+        </div>
       );
     }
   });
