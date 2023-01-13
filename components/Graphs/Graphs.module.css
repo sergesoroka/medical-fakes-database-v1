@@ -1,0 +1,12 @@
+.graphLayout {
+  display: flex; 
+  gap: 1rem; 
+  margin-top: 2rem 
+}
+
+@media (max-width: 600px) {
+  .graphLayout {
+    display: block;
+    margin-top: 2rem 
+  }
+}

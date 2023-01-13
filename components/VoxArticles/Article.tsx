@@ -27,7 +27,7 @@ const Article = ({
               layout='fixed'
               width="150px"
               height="150px"
-              sizes="100vw"
+             
               style={{ width: "100%", height: "auto" }}
             />
           </div>
