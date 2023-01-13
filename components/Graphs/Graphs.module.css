@@ -1,12 +1,36 @@
 .graphLayout {
-  display: flex; 
-  gap: 1rem; 
-  margin-top: 2rem 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btnWrap {
+  text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btnVisual {
+  background: none;
+  border: none;
+  margin: 1rem 0 1rem 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #3f4871;
+  font-family: Montserrat;
+  letter-spacing: 0.01rem;
+  text-align: right;
+  line-height: 1rem;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
   .graphLayout {
     display: block;
-    margin-top: 2rem 
+    margin-top: 2rem;
   }
 }
