@@ -17,14 +17,14 @@ function GraphsLayout() {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect width="5.78947" height="24" rx="1" fill="#3F4871" />
+          <rect width="5.78947" height="24" rx="1" fill={showGraphs ? '#787878' : '#3F4871'} />
           <rect
             x="8.10529"
             y="8.40002"
             width="5.78947"
             height="15.6"
             rx="1"
-            fill="#3F4871"
+            fill={showGraphs ? '#787878' : '#3F4871'}
           />
           <rect
             x="16.2105"
@@ -32,12 +32,12 @@ function GraphsLayout() {
             width="5.78947"
             height="19.2"
             rx="1"
-            fill="#3F4871"
+            fill={showGraphs ? '#787878' : '#3F4871'}
           />
         </svg>
 
         <button
-          className={styles.btnVisual}
+          className={showGraphs ? styles.btnVisual + ' ' + styles.btnVisualOpen : styles.btnVisual}
           onClick={() => setShowGraphs(!showGraphs)}
         >
           Інтерактивні
