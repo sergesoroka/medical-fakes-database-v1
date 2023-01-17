@@ -1,82 +1,162 @@
-export const infograficsDataEn =  [
+export const infograficsDataEn = [
   {
-    "infographic_id": "1",
-    "infographic_title": "COVID-19 statistics",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/306085132_1846825068982323_6399502639168846410_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=teM3ZZl3iNQAX8F5WY4&_nc_oc=AQnL-WxvRAUNG9TbNpoMYmk_QbIw9M3h6ARReEzLDikGz30F9QAhEBXQ0DGXA7VRaIM&tn=BPJOsWd14t3wPbBf&_nc_ht=scontent.flwo6-1.fna&oh=00_AT-iOHlViZAU7EVmz1MhFDlMfeoeWAeHBf6BAG4urXTHmw&oe=6324DD91"
+      "infographic_id": "1",
+      "infographic_title": "COVID-19 statistics",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-153245_002.jpeg"
   },
   {
-    "infographic_id": "2",
-    "infographic_title": "How to psychologically support war victims?",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/306042778_1846824085649088_729499083408263410_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=8C7j6jsnMdoAX-58aDe&_nc_ht=scontent.flwo6-1.fna&oh=00_AT-yGXEPoUGKJjEdp38NfGQNCfZyAMzQl20wGueIXi-KMA&oe=6324CBC9"
+      "infographic_id": "2",
+      "infographic_title": "How to psychologically support war victims?",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-153257_003.jpeg"
   },
   {
-    "infographic_id": "3",
-    "infographic_title": "How is it inappropriate to communicate with war victims?",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/306217366_1846824088982421_685286527725512627_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=ZiUfo92aq4sAX8BEf89&_nc_ht=scontent.flwo6-1.fna&oh=00_AT-xh2NzQLvfQdeesc-zxjY4eDV90J0VekDx-YiYj_khUQ&oe=632508B1"
+      "infographic_id": "3",
+      "infographic_title": "How is it inappropriate to communicate with war victims?",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-153257_002.jpeg"
   },
   {
-    "infographic_id": "4",
-    "infographic_title": "Consequences in the event of an accident at the ZNPP",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/305019190_1841855209479309_5455988356265389158_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=jGM4RvA1o_sAX8ni_aQ&_nc_ht=scontent.flwo6-1.fna&oh=00_AT_lphqknnYyMJ3hNTmZU_mVLJgENpIuQnym57tJgcoScA&oe=632427B4"
+      "infographic_id": "4",
+      "infographic_title": "Consequences in the event of an accident at the ZNPP",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/ZAES-1-1.png"
   },
   {
-    "infographic_id": "5",
-    "infographic_title": "Algorithm of actions in case of radioactive threat",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/305127951_1841854696146027_8824597293111573987_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=HlPzGcq1C0IAX8hWNw6&_nc_ht=scontent.flwo6-1.fna&oh=00_AT-uf9kW8hdZBiPESZeCwQilOBmSrJgodb8C6afVgFA5Ug&oe=63254D33"
+      "infographic_id": "5",
+      "infographic_title": "Algorithm of actions in case of radioactive threat",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/ZAES-3-1.png"
   },
   {
-    "infographic_id": "6",
-    "infographic_title": "Fakes about the ZNPP",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/304756246_1841098816221615_2734822029029234078_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=-4K16XQM-YQAX-sR5Zv&_nc_ht=scontent.flwo6-1.fna&oh=00_AT9BCizbD3JJvu1ITHzVBJJMpfqTRsLKP-AFbWuw4LV2KQ&oe=6324AF85"
+      "infographic_id": "6",
+      "infographic_title": "Fakes about the ZNPP",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-154042_002-1.jpeg"
   },
   {
-    "infographic_id": "7",
-    "infographic_title": "Fakes about the ZNPP",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/305101003_1841098842888279_1447520057964242373_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=Txew2GS2zSkAX8H-2mw&tn=BPJOsWd14t3wPbBf&_nc_ht=scontent.flwo6-1.fna&oh=00_AT9mSZ9qWID-EmOTdFo0t4rE7uAYKNnQ2O2Gm8wggQZJ2g&oe=63241FC3"
+      "infographic_id": "7",
+      "infographic_title": "Fakes about the ZNPP",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-154042_003.jpeg"
   },
   {
-    "infographic_id": "8",
-    "infographic_title": "Fakes about the ZNPP",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/305092302_1841098866221610_6689597326904121727_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=d1KmP0Jj-vwAX_l-ZLc&_nc_ht=scontent.flwo6-1.fna&oh=00_AT9xhc7igHeKtM1ci3YeqZLQtTjWHo6uh9bMGmFPay7e7w&oe=6324C0E7"
+      "infographic_id": "8",
+      "infographic_title": "Fakes about the ZNPP",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-154042_004.jpeg"
   },
   {
-    "infographic_id": "9",
-    "infographic_title": "Fakes about the ZNPP",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/304912920_1841098906221606_7367311178882964744_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=SL8COTrKgTgAX8p-W3B&_nc_ht=scontent.flwo6-1.fna&oh=00_AT_fVnfTTe6nkS3xOW99MS9FXe7EPAlb7VdoQ6RIwZvCVQ&oe=632439B5"
+      "infographic_id": "9",
+      "infographic_title": "Fakes about the ZNPP",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-154042_005.jpeg"
   },
   {
-    "infographic_id": "10",
-    "infographic_title": "Fakes about the ZNPP",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/305164098_1841098859554944_9101629576480079359_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=aiCx3W2611YAX-Lfa2m&_nc_ht=scontent.flwo6-1.fna&oh=00_AT_aiZaENnlEXVEL-_Fhb8FaPBnVB0jvhbsAS0PESVxalA&oe=6324FA41"
+      "infographic_id": "10",
+      "infographic_title": "Fakes about the ZNPP",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-154042_006.jpeg"
   },
   {
-    "infographic_id": "11",
-    "infographic_title": "russian invaders are killing medicine in Ukraine",
-    "infographic_link": "https://scontent.flwo4-1.fna.fbcdn.net/v/t39.30808-6/305996463_1850467648618065_2236166846893115211_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=3DlAtcuKfpUAX9iGxB9&_nc_ht=scontent.flwo4-1.fna&oh=00_AT85seigPF4_xWPwzUK1SUjwughh6OSVHOTzkUhyQS-Faw&oe=632D933D"
+      "infographic_id": "11",
+      "infographic_title": "russian occupiers are killing medicine in Ukraine",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/img2.jpeg"
   },
   {
-    "infographic_id": "12",
-    "infographic_title": "Why is black transplantation a myth?",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/306969705_1850831185248378_520970562586876083_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=7wa7eIK5MJAAX86FQ9P&tn=BPJOsWd14t3wPbBf&_nc_ht=scontent.flwo6-1.fna&oh=00_AT9evaWEPt4zPmwkVRgduwWt-qt3pyXXA56mXz3Rv0jT2w&oe=632D15E2"
+      "infographic_id": "12",
+      "infographic_title": "Why is black transplantation a myth?",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/img123.jpeg"
   },
   {
-    "infographic_id": "13",
-    "infographic_title": "Myths about monkeypox",
-    "infographic_link": "https://scontent.flwo4-2.fna.fbcdn.net/v/t39.30808-6/307509052_1852171695114327_4524052182169434793_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=C4cQWQ-xEp8AX-mSEGP&tn=BPJOsWd14t3wPbBf&_nc_ht=scontent.flwo4-2.fna&oh=00_AT-Dyg9c-fD3Wf9Au4_SzREixbUbiq7-P8jMB_tYJrJJrA&oe=632D139E"
+      "infographic_id": "13",
+      "infographic_title": "Myths about monkeypox",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-153429_003.jpeg"
   },
   {
-    "infographic_id": "14",
-    "infographic_title": "Prevention of monkeypox",
-    "infographic_link": "https://scontent.flwo4-1.fna.fbcdn.net/v/t39.30808-6/306982437_1852171691780994_4064523766781649005_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ddgj0zTlsI8AX94j4sr&_nc_ht=scontent.flwo4-1.fna&oh=00_AT_b_NV9zXU8upoXWVLyaqwWladdTvylpOfa7ANK1c3D5A&oe=632E2E83"
+      "infographic_id": "14",
+      "infographic_title": "Prevention of monkeypox",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-153429_002.jpeg"
   },
   {
-    "infographic_id": "15",
-    "infographic_title": "Ukraine is not at risk of famine!",
-    "infographic_link": "https://scontent.flwo4-2.fna.fbcdn.net/v/t39.30808-6/307140380_1852223028442527_1699669618433493449_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=nVtDXPqQxHYAX_wjZgm&_nc_ht=scontent.flwo4-2.fna&oh=00_AT91F56OP1G4MxWsITdUPpFi8f940RPtIvrDDUX7iBNk0A&oe=632E05FF"
+      "infographic_id": "15",
+      "infographic_title": "Ukraine is not at risk of famine!",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-153443_002.jpeg"
   },
   {
-    "infographic_id": "16",
-    "infographic_title": "There is no shortage of oil in Ukraine!",
-    "infographic_link": "https://scontent.flwo6-1.fna.fbcdn.net/v/t39.30808-6/307987804_1854449304886566_8009026122875052747_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=tp9d0ebxoHoAX_IqDBO&_nc_ht=scontent.flwo6-1.fna&oh=00_AT_hUmLVwlfQxrq2H67G-MNefQq0exDvF5_97fccMxjuhQ&oe=632E5E8B"
+      "infographic_id": "16",
+      "infographic_title": "There is no shortage of oil in Ukraine!",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/signal-2022-09-26-153455_002.jpeg"
+  },
+  {
+      "infographic_id": "17",
+      "infographic_title": "Healthy heart",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/heart.jpeg"
+  },
+  {
+      "infographic_id": "18",
+      "infographic_title": "Ukraine is recovering",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/09/img1-1-768x768.png"
+  },
+  {
+      "infographic_id": "19",
+      "infographic_title": "How is your COVID-19 vaccination saving others?",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/11/voxcheck-eng.jpg"
+  },
+  {
+      "infographic_id": "20",
+      "infographic_title": "Vaccination of children against COVID-19",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/11/vaccination.jpeg"
+  },
+  {
+      "infographic_id": "21",
+      "infographic_title": "Russia's lies about the humanitarian situation in Ukraine",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/11/1-eng-1-1024x1024.jpeg"
+  },
+  {
+      "infographic_id": "22",
+      "infographic_title": "Russia's lies about the humanitarian situation in Ukraine",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/11/2-eng-1024x1024.jpeg"
+  },
+  {
+      "infographic_id": "23",
+      "infographic_title": "Russia's lies about the humanitarian situation in Ukraine",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/11/30eng-1024x1024.jpeg"
+  },
+  {
+      "infographic_id": "24",
+      "infographic_title": "The myth about the \"US biolaboratories\" in Ukraine",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/11/biolab-eng-768x768.jpeg"
+  },
+  {
+      "infographic_id": "25",
+      "infographic_title": "What did the US actually do under the Biological Threat Reduction Program?",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/11/threat-eng-768x768.jpeg"
+  },
+  {
+      "infographic_id": "26",
+      "infographic_title": "(Un)paid medicine in Ukraine",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/12/medytsyna-1-768x768.jpeg"
+  },
+  {
+      "infographic_id": "27",
+      "infographic_title": "Affordable medicines",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/12/medytsyna-3-768x768.jpeg"
+  },
+  {
+      "infographic_id": "28",
+      "infographic_title": "How to become a blood donor in Ukraine?",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/12/donorstvo-angl-768x768.jpeg"
+  },
+  {
+      "infographic_id": "29",
+      "infographic_title": "What should be in the Points of Invincibility?",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/12/punkt-nezlamnosti-angl-768x768.jpeg"
+  },
+  {
+      "infographic_id": "30",
+      "infographic_title": "The effectiveness of cannabinoids",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/12/voxcheck-eng1-768x768.jpeg"
+  },
+  {
+      "infographic_id": "31",
+      "infographic_title": "How many Ukrainians need medical cannabis?",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2022/12/voxcheck-1-768x768.jpeg"
+  },
+  {
+      "infographic_id": "32",
+      "infographic_title": "Who can apply for organ donation?",
+      "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/voxcheck-eng-1024x1024.jpeg"
   }
 ]
