@@ -21,8 +21,6 @@ const Infografica = ({ infographic_id }: { infographic_id: string }) => {
     // @ts-ignore
     if (infographic_id == item.infographic_id) {
       return (
-        // eslint-disable-next-line @next/next/no-img-element
-        // <img src={item.infographic_link} height="373" width="660" alt='infigrafica/>
         // @ts-ignore
         <div className={styles.imageWrap} key={item.infographic_id}>
           <Image
@@ -30,12 +28,8 @@ const Infografica = ({ infographic_id }: { infographic_id: string }) => {
             src={item.infographic_link}
             width="540"
             height="250"
-          //   sizes="(max-width: 768px) 100vw,
-          // (max-width: 1200px) 50vw,
-          // 33vw"
             layout='fixed'
             objectFit='contain'
-            // style={{ width: "auto", height: "250px" }}
             alt="Infografic"
           />
         </div>

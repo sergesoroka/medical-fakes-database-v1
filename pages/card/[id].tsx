@@ -19,8 +19,6 @@ function CartPage() {
   const { id } = router.query;
   const { locale } = router;
 
- 
-
   const pravda =
     locale == "en"
       ? "How's the reality?"
@@ -29,6 +27,8 @@ function CartPage() {
       : "Як наспраді?";
        // @ts-ignore
   const renderedPage = fakes.map((item) => {
+    // console.log('info id', item.infographic_id.split(', '));
+    
     if (item.id === id) {
       return (
         // @ts-ignore
@@ -84,7 +84,9 @@ function CartPage() {
             {item.infographic_id && (
               <>
                 <SectionLabel label="infograf" />
-                <Infografica infographic_id={item.infographic_id} />
+                {item.infographic_id.split(', ').map((inf, i) => <Infografica key={i} infographic_id={inf} />)}
+
+                
               </>
             )}
           </div>
