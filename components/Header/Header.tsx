@@ -11,6 +11,19 @@ const Header = () => {
   const router = useRouter();
   const { locale } = router;
 
+  const downloadLabel =
+    locale == "en"
+      ? "Download Data"
+      : locale == "ru"
+      ? "Загрузить данные"
+      : "Завантажити дані";
+  const downloadLink =
+    locale == "en"
+      ? "https://docs.google.com/spreadsheets/d/1ghu-eJVyTTi3XCNgUB1Tb5dmAxdmt2CGzf5TwxNbiJ4/edit#gid=0"
+      : locale == "ru"
+      ? "https://docs.google.com/spreadsheets/d/1IrmaQYRnfNSKQ2D_xug_YGc19aXPYhmxXS4YLM9zfpk/edit#gid=0"
+      : "https://docs.google.com/spreadsheets/d/1rMCP_E1FVbKn4kKvN8l7Bg-ZKv4qgYBledBKZUUP0hg/edit#gid=0";
+
   const aboutLabel =
     locale == "en" ? "About" : locale == "ru" ? "О проекте" : "Про Проект";
   const methodLabel =
@@ -43,6 +56,9 @@ const Header = () => {
             </Link>
             <Link href="/method" passHref>
               <a>{methodLabel}</a>
+            </Link>
+            <Link href={downloadLink} passHref>
+              <a target="_blank">{downloadLabel}</a>
             </Link>
           </div>
           <div className={styles.searchWrap}>
