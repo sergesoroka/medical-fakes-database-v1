@@ -25,10 +25,10 @@ function CartPage() {
       : locale == "ru"
       ? "Как на самом деле?"
       : "Як наспраді?";
-       // @ts-ignore
+  // @ts-ignore
   const renderedPage = fakes.map((item) => {
     // console.log('info id', item.infographic_id.split(', '));
-    
+
     if (item.id === id) {
       return (
         // @ts-ignore
@@ -69,7 +69,7 @@ function CartPage() {
             </div>
             <p
               className={styles.textDiscript}
-              // @ts-ignore 
+              // @ts-ignore
               dangerouslySetInnerHTML={{ __html: item.disproof }}
             />
 
@@ -84,9 +84,9 @@ function CartPage() {
             {item.infographic_id && (
               <>
                 <SectionLabel label="infograf" />
-                {item.infographic_id.split(', ').map((inf, i) => <Infografica key={i} infographic_id={inf} />)}
-
-                
+                {item.infographic_id.split(", ").map((inf, i) => (
+                  <Infografica key={i} infographic_id={inf} />
+                ))}
               </>
             )}
           </div>

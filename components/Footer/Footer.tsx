@@ -6,7 +6,7 @@ import telegram from "./../../public/icons/telegram.svg";
 import instagram from "./../../public/icons/instagram.svg";
 import facebook from "./../../public/icons/facebook.svg";
 import youtube from "./../../public/icons/youtube.svg";
-import usaid_logo from "./../../public/icons/usaid_logo.svg";
+import usaid_logo from "./../../public/HRS-logo.svg";
 import voxCheckLogo from "./../../public/icons/voxchek-logo.svg";
 
 const Footer = () => {

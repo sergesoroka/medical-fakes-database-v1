@@ -41,6 +41,7 @@ $primary-color: #3F4871;
 }
 .logosWrap {
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
 }
 @media (max-width: 600px) {
