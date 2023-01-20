@@ -3,8 +3,20 @@ import Link from "next/link";
 // import { fakesData } from "../../data/fakes/fakesData";
 import styles from "./Statistic.module.scss";
 import useLangSwitcher from "../../utils/langSwitcher";
+import { useRouter } from "next/router";
 
 const Statistic = ({ subtheme }: { subtheme: string }) => {
+  const router = useRouter();
+  const { locale } = router;
+
+  
+
+  const allSources = locale == "en"
+    ? "All sources"
+    : locale == "ru"
+    ? "Все источники"
+    : "Всі джерела";
+
   const [showAllSourses, setShowAllSourses] = useState<boolean>(false);
   const { fakes } = useLangSwitcher();
   // @ts-ignore
@@ -49,7 +61,7 @@ const Statistic = ({ subtheme }: { subtheme: string }) => {
       listOfAllSources.length !== 18 &&
       listOfAllSources.length !== 19
     ) {
-      return "джерело";
+      return locale == "en" ? "sources" : locale == "ru" ? "источника" : "джерело";
     } else if (
       (lastDigit === "2" || lastDigit === "3" || lastDigit === "4") &&
       listOfAllSources.length !== 11 &&
@@ -61,9 +73,9 @@ const Statistic = ({ subtheme }: { subtheme: string }) => {
       listOfAllSources.length !== 18 &&
       listOfAllSources.length !== 19
     ) {
-      return "джерела";
+      return locale == "en" ? "sources" : locale == "ru" ? "источника" : "джерело";
     } else {
-      return "джерел";
+      return locale == "en" ? "sources" : locale == "ru" ? "источников" : "джерел";
     }
   };
 
@@ -82,7 +94,7 @@ const Statistic = ({ subtheme }: { subtheme: string }) => {
         className={styles.btnAllSources}
         onClick={() => setShowAllSourses(!showAllSourses)}
       >
-        Всі джерела
+        {allSources}
       </div>
     </>
   );

@@ -28,25 +28,55 @@ const Header = () => {
     locale == "en" ? "About" : locale == "ru" ? "О проекте" : "Про Проект";
   const methodLabel =
     locale == "en"
-      ? "Metodology"
+      ? "Methodology"
       : locale == "ru"
       ? "Методология"
       : "Методологія";
+
   return (
     <div>
       <LangSwitcher />
       <header className={styles.header}>
         <Link href="/" passHref>
           <div className={styles.logo}>
-            <p className={styles.voxLogo}>
-              Детокс
-              <br />
-              від пропаганди
-            </p>
-            <p className={styles.projectLogo}>
+            {locale == "en" ? (
+              <p className={styles.voxLogo}>
+                Detox
+                <br /> from propaganda
+              </p>
+            ) : locale == "ru" ? (
+              <p className={styles.voxLogo}>
+                Детокс
+                <br /> от пропаганды
+              </p>
+            ) : (
+              <p className={styles.voxLogo}>
+                Детокс
+                <br /> від пропаганди
+              </p>
+            )}
+
+            {locale == "en" ? (
+              <p className={styles.projectLogo}>
+                Database
+                <br />
+                of medical fakes
+              </p>
+            ) : locale == "ru" ? (
+              <p className={styles.projectLogo}>
+                База данных <br />
+                медицинских фейков
+              </p>
+            ) : (
+              <p className={styles.projectLogo}>
+                База даних <br /> медичних фейків
+              </p>
+            )}
+
+            {/* <p className={styles.projectLogo}>
               База даних <br />
               медичних фейків
-            </p>
+            </p> */}
           </div>
         </Link>
         <div className={styles.rightWrap}>

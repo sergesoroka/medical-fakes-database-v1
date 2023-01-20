@@ -3,6 +3,7 @@ import styles from "./SearchAutoComplete.module.scss";
 import useLangSwitcher from "../../utils/langSwitcher";
 import CardsLayout from "../Card/CardsLayout";
 import { FiSearch } from "react-icons/fi";
+import { useRouter } from "next/router";
 
 const SearchAutoComplete = () => {
   const { fakes } = useLangSwitcher();
@@ -16,6 +17,15 @@ const SearchAutoComplete = () => {
     suggestions,
   } = useSearchAutoComplete({ data: fakes });
 
+  const router = useRouter();
+  const { locale } = router;
+
+  const placeholdrer = locale == "en"
+    ? "Search for fakes"
+    : locale == "ru"
+    ? "Поиск фейков"
+    : "Пошук фейків";
+
   return (
     <div className={styles.searchWrap}>
       <div className={styles.searchIcon}>
@@ -25,7 +35,7 @@ const SearchAutoComplete = () => {
         type="text"
         value={value}
         onChange={handleChange}
-        placeholder="Пошук фейків"
+        placeholder={placeholdrer}
       />
       {/* <button className={styles.clearBtn} onClick={handleClear}>
         <FiX />

@@ -19,6 +19,14 @@ function CartPage() {
   const { id } = router.query;
   const { locale } = router;
 
+
+  const theme =
+    locale == "en"
+      ? "TOPIC"
+      : locale == "ru"
+      ? "ТЕМА"
+      : "ТЕМА";
+
   const pravda =
     locale == "en"
       ? "How's the reality?"
@@ -40,7 +48,7 @@ function CartPage() {
             <div className={styles.themeSection}>
               <div className={styles.wordTheme}>
                 <Link href="/themes">
-                  <a>ТЕМА</a>
+                  <a>{theme}</a>
                 </Link>
               </div>
               <div className={styles.arrowTheme}></div>

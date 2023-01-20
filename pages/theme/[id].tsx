@@ -5,11 +5,13 @@ import { fakesData } from "./../../data/fakes/fakesData";
 import { medicalFake } from "./../../types/dataTypes";
 
 import ThemeItem from "../../components/theme/ThemeItem";
+import useLangSwitcher from "../../utils/langSwitcher";
 
 const Theme = () => {
+  const { fakes } = useLangSwitcher();
 /* @ts-ignore */
   const themesUnique = [];
-  fakesData.map((item: medicalFake) => {
+  fakes.map((item: medicalFake) => {
     /* @ts-ignore */
     if (!themesUnique.includes(item.theme)) {
       themesUnique.push(item.theme);

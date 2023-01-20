@@ -8,22 +8,49 @@ import facebook from "./../../public/icons/facebook.svg";
 import youtube from "./../../public/icons/youtube.svg";
 import usaid_logo from "./../../public/HRS-logo.svg";
 import voxCheckLogo from "./../../public/icons/voxchek-logo.svg";
+import { useRouter } from "next/router";
 
 const Footer = () => {
+  const router = useRouter();
+  const { locale } = router;
+
+  
   return (
     <footer className={styles.footer}>
       <div className={styles.disclaimWrap}>
-        <p className={styles.disclaim}>
-          <span className={styles.disclaimWord}>Дисклеймер:</span> Створення
-          бази медичних фейків стало можливим за підтримки Агентства США з
-          міжнародного розвитку (USAID), наданої від імені народу Сполучених
-          Штатів Америки, за підтримки Програми Уряду Великої Британії «Good
-          Governance Fund», наданої від імені народу Великої Британії.
-          Відповідальність за зміст цієї бази, який необов&apos;язково
-          відображає погляди USAID, Уряду Сполучених Штатів Америки, UK aid або
-          Уряду Великої Британії, несе виключно компанія ТОВ «Делойт Консалтинг»
-          в рамках контракту №72012118C00001.
-        </p>
+        {locale == "ua" ? (
+          <p className={styles.disclaim}>
+            <span className={styles.disclaimWord}>Дисклеймер:</span> Створення
+            бази медичних фейків стало можливим за підтримки Агентства США з
+            міжнародного розвитку (USAID), наданої від імені народу Сполучених
+            Штатів Америки, за підтримки Програми Уряду Великої Британії «Good
+            Governance Fund», наданої від імені народу Великої Британії.
+            Відповідальність за зміст цієї бази, який необов&apos;язково
+            відображає погляди USAID, Уряду Сполучених Штатів Америки, UK aid
+            або Уряду Великої Британії, несе виключно компанія ТОВ «Делойт
+            Консалтинг» в рамках контракту №72012118C00001.
+          </p>
+        ) : locale == "ru" ? (
+          <p className={styles.disclaim}>
+            <span className={styles.disclaimWord}>Дисклеймер:</span> Этот
+            информационный материал подготовлен при поддержке Агентства США по
+            международному развитию (USAID), предоставленной от имени народа
+            Соединенных Штатов Америки. Ответственность за содержание этого
+            информационного материала, необязательно отражающего взгляды USAID,
+            Правительства Соединенных Штатов Америки, несет исключительно
+            компания ООО «Делойт Консалтинг» в рамках контракта №72012118C00001.
+          </p>
+        ) : (
+          <p className={styles.disclaim}>
+            <span className={styles.disclaimWord}>Disclaimer:</span> This
+            information piece was produced with the assistance of the United
+            States Agency for International Development (USAID), provided on
+            behalf of the people of the United States of America. This article’s
+            content, which does not necessarily reflect the views of USAID, the
+            United States Government, is the sole responsibility of Deloitte
+            Consulting under contract #72012118C00001.
+          </p>
+        )}
         <div className={styles.logosWrap}>
           <div style={{ height: "20px", width: "175px", marginTop: "20px" }}>
             <Image
