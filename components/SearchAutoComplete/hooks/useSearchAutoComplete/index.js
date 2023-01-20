@@ -13,11 +13,25 @@ const useSearchAutoComplete = ({ data }) => {
       const filterSuggestionsTheme = data
         .map((item) => item.theme)
         .filter((suggestion) => suggestion.toLowerCase().indexOf(query) > -1);
+        
       const filterSuggestionsSubTheme = data
         .map((item) => item.subtheme)
         .filter((suggestion) => suggestion.toLowerCase().indexOf(query) > -1);
 
-      setSuggestions([...filterSuggestionsTheme, ...filterSuggestionsSubTheme]);
+      const filterSuggestionsDiscription = data
+        .map((item) => item.discription)
+        .filter((suggestion) => suggestion.toLowerCase().indexOf(query) > -1);
+
+      const filterSuggestionsDisproof = data
+        .map((item) => item.disproof)
+        .filter((suggestion) => suggestion.toLowerCase().indexOf(query) > -1);
+
+      setSuggestions([
+        ...filterSuggestionsTheme,
+        ...filterSuggestionsSubTheme,
+        ...filterSuggestionsDiscription,
+        ...filterSuggestionsDisproof,
+      ]);
       setSuggestionsActive(true);
     } else {
       setSuggestionsActive(false);
@@ -31,8 +45,8 @@ const useSearchAutoComplete = ({ data }) => {
   };
 
   const handleClear = () => {
-    setValue("")
-    setSuggestions([])
+    setValue("");
+    setSuggestions([]);
   };
 
   return {

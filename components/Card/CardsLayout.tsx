@@ -71,7 +71,9 @@ const CardsLayout = ({
       if (item.theme && suggestions) {
         if (
           suggestions.includes(item.theme) ||
-          suggestions.includes(item.subtheme)
+          suggestions.includes(item.subtheme) ||
+          suggestions.includes(item.discription) ||
+          suggestions.includes(item.disproof) 
         ) {
           return (
             <Card
