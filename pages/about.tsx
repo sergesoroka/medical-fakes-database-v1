@@ -6,10 +6,17 @@ import styles from "./../styles/Home.module.scss";
 const About = () => {
   const router = useRouter();
   const { locale } = router;
+
+  const title =
+  locale == "en"
+    ? "Project's Description | Detox from propaganda"
+    : locale == "ru"
+    ? "Описание проекта | Detox от пропаганды"
+    : "Опис проєкту | Detox від пропаганди";
   return (
     <>
       <Head>
-        <title>Опис проєкту | Detox від пропаганди</title>
+        <title>{title}</title>
       </Head>
       {locale == "ua" && (
         <div className={styles.aboutPage}>
