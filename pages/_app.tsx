@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Provider } from "react-redux";
+import { useRouter } from "next/router";
 import { store } from "./../store/store";
 import "../styles/globals.scss";
 import type { AppProps } from "next/app";
@@ -9,10 +10,20 @@ import Footer from "../components/Footer/Footer";
 import styles from "../styles/Home.module.scss";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter();
+  const { locale } = router;
+
+  const title =
+  locale == "en"
+    ? "Detox from propaganda"
+    : locale == "ru"
+    ? "Detox от пропаганды"
+    : "Detox від пропаганди";
+
   return (
     <Provider store={store}>
       <Head>
-        <title>Detox від пропаганди</title>
+        <title>{title}</title>
         <meta name="next-head-count" content="3" />
         <meta name="description" content="База медичних фейків" />
         <meta

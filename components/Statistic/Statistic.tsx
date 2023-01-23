@@ -73,7 +73,7 @@ const Statistic = ({ subtheme }: { subtheme: string }) => {
       listOfAllSources.length !== 18 &&
       listOfAllSources.length !== 19
     ) {
-      return locale == "en" ? "sources" : locale == "ru" ? "источника" : "джерело";
+      return locale == "en" ? "sources" : locale == "ru" ? "источника" : "джерела";
     } else {
       return locale == "en" ? "sources" : locale == "ru" ? "источников" : "джерел";
     }
