@@ -4,8 +4,17 @@ import Weekly from "./Weekly";
 import Wordcloud from "./Wordcloud";
 
 import styles from "./Graphs.module.css";
+import { useRouter } from "next/router";
 
 function GraphsLayout() {
+  const router = useRouter();
+  const { locale } = router;
+
+  locale == "en"
+    ? "https://voxukraine.org/graphs/medfakes/weekly_en.html"
+    : locale == "ru"
+    ? "https://voxukraine.org/graphs/medfakes/weekly_ru.html"
+    : "https://voxukraine.org/graphs/medfakes/weekly_ua.html";
   const [showGraphs, setShowGraphs] = useState(false);
   return (
     <>
@@ -40,19 +49,46 @@ function GraphsLayout() {
             fill={showGraphs ? "#787878" : "#3F4871"}
           />
         </svg>
-
-        <button
-          className={
-            showGraphs
-              ? styles.btnVisual + " " + styles.btnVisualOpen
-              : styles.btnVisual
-          }
-          onClick={() => setShowGraphs(!showGraphs)}
-        >
-          Інтерактивні
-          <br />
-          візуалізації
-        </button>
+        {locale == "en" ? (
+          <button
+            className={
+              showGraphs
+                ? styles.btnVisual + " " + styles.btnVisualOpen
+                : styles.btnVisual
+            }
+            onClick={() => setShowGraphs(!showGraphs)}
+          >
+            Interactive
+            <br />
+            visualisation
+          </button>
+        ) : locale == "ru" ? (
+          <button
+            className={
+              showGraphs
+                ? styles.btnVisual + " " + styles.btnVisualOpen
+                : styles.btnVisual
+            }
+            onClick={() => setShowGraphs(!showGraphs)}
+          >
+            Интерактивные
+            <br />
+            визуализации
+          </button>
+        ) : (
+          <button
+            className={
+              showGraphs
+                ? styles.btnVisual + " " + styles.btnVisualOpen
+                : styles.btnVisual
+            }
+            onClick={() => setShowGraphs(!showGraphs)}
+          >
+            Інтерактивні
+            <br />
+            візуалізації
+          </button>
+        )}
       </div>
       {showGraphs ? (
         <div className={styles.graphLayout}>
