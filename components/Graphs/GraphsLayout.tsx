@@ -92,7 +92,7 @@ function GraphsLayout() {
       </div>
       {showGraphs ? (
         <div className={styles.graphLayout}>
-          <Weekly />
+          {/* <Weekly /> */}
           <TreePlot />
           <Wordcloud />
         </div>

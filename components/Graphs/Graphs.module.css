@@ -1,6 +1,7 @@
 .graphLayout {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
   margin-top: 2rem;
