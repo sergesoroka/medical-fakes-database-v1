@@ -60,7 +60,7 @@ function GraphsLayout() {
           >
             Interactive
             <br />
-            visualisation
+            visualisations
           </button>
         ) : locale == "ru" ? (
           <button
