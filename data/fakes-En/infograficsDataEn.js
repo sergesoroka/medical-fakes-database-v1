@@ -27,7 +27,7 @@ export const infograficsDataEn = [
     {
         "infographic_id": "6",
         "infographic_title": "Fakes about the ZNPP",
-        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/info_voxcheck-8.png"
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/info_voxcheck-9.png"
     },
     {
         "infographic_id": "7",

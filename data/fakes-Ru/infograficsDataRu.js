@@ -27,7 +27,7 @@ export const infograficsDataRu = [
     {
         "infographic_id": "6",
         "infographic_title": "Фейки о ЗАЭС",
-        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/info_voxcheck-9.png"
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/info_voxcheck-8.png"
     },
     {
         "infographic_id": "7",
