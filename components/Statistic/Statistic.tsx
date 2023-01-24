@@ -61,7 +61,7 @@ const Statistic = ({ subtheme }: { subtheme: string }) => {
       listOfAllSources.length !== 18 &&
       listOfAllSources.length !== 19
     ) {
-      return locale == "en" ? "sources" : locale == "ru" ? "источника" : "джерело";
+      return locale == "en" ? "source" : locale == "ru" ? "источник" : "джерело";
     } else if (
       (lastDigit === "2" || lastDigit === "3" || lastDigit === "4") &&
       listOfAllSources.length !== 11 &&
