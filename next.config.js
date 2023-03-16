@@ -16,6 +16,7 @@ const nextConfig = {
     defaultLocale: "ua",
     localeDetection: false,
   },
+  output: 'export'
 };
 
 module.exports = {
