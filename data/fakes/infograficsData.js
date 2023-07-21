@@ -158,5 +158,45 @@ export const infograficsData = [
         "infographic_id": "32",
         "infographic_title": "Заява на донорство",
         "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/image2-768x768.jpg"
-    }
+    },
+    {
+        "infographic_id": "33",
+        "infographic_title": "росія знищує українську медицину",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/image1-7-768x768.png"
+    },
+    {
+        "infographic_id": "34",
+        "infographic_title": "Кількість операцій з трансплантації",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/image2-7-768x768.png"
+    },
+    {
+        "infographic_id": "35",
+        "infographic_title": "Кількість швидких від партнерів",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/02/image5-753x1024.jpg"
+    },
+    {
+        "infographic_id": "36",
+        "infographic_title": "Реформи рятують життя",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/02/image1-1-1.png"
+    },
+    {
+        "infographic_id": "37",
+        "infographic_title": "Основні симптоми туберкульозу",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/02/voxcheck-ukr.jpg"
+    },
+    {
+        "infographic_id": "38",
+        "infographic_title": "ПТСР",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/ptsr.png"
+    },
+    {
+        "infographic_id": "39",
+        "infographic_title": "Чому транслантологія в \"польових умовах\" неможлива?",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/VoxCheck.png"
+    },
+    {
+        "infographic_id": "40",
+        "infographic_title": "Хто не може бути донором крові?",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/image2-2.png"
+    },
 ]
