@@ -200,4 +200,124 @@ export const infograficsData = [
         "infographic_title": "Хто не може бути донором крові?",
         "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/image2-2.png"
     },
+    {
+        "infographic_id": "41",
+        "infographic_title": "Профілактика інфекційних захворювань та харчових отруєнь",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/image2-4.png"
+    },
+    {
+        "infographic_id": "42",
+        "infographic_title": "Профілактика пташиного грипу",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/image1-2.jpg"
+    },
+    {
+        "infographic_id": "43",
+        "infographic_title": "Фінансування психіатричної допомоги",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/image3-2.png"
+    },
+    {
+        "infographic_id": "44",
+        "infographic_title": "Користь мРНК-вакцин",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/image3-1-1-768x768.jpg"
+    },
+    {
+        "infographic_id": "45",
+        "infographic_title": "Здобутки системи охорони здоровʼя",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/04/image1-4-768x768.png"
+    },
+    {
+        "infographic_id": "46",
+        "infographic_title": "Здобутки системи охорони здоровʼя",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/04/image3-2-768x768.png"
+    },
+    {
+        "infographic_id": "47",
+        "infographic_title": "Результати програми спільного зменшення загрози",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/04/image2-768x768.jpg"
+    },
+    {
+        "infographic_id": "48",
+        "infographic_title": "Збір ДНК-матеріалу у військових та правоохоронців",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/05/image2-768x768.jpg"
+    },
+    {
+        "infographic_id": "49",
+        "infographic_title": "Збитки медичній інфраструктурі внаслідок вторгнення",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/05/image1-2.png"
+    },
+    {
+        "infographic_id": "50",
+        "infographic_title": "Основні симптоми кору",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/05/image1.jpg"
+    },
+    {
+        "infographic_id": "51",
+        "infographic_title": "Наслідки пандемії COVID-19",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/05/Vypusk-29.png"
+    },
+    {
+        "infographic_id": "52",
+        "infographic_title": "Йодна профілактика у разі загрози радіаційного викиду",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/05/radiatsiy-na-zagroza-1.png"
+    },
+    {
+        "infographic_id": "53",
+        "infographic_title": "Харчові отруєння",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/05/image4-1.jpg"
+    },
+    {
+        "infographic_id": "54",
+        "infographic_title": "Факти про шкідливість алкоголю",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/05/image1-6.png"
+    },
+    {
+        "infographic_id": "55",
+        "infographic_title": "Фактори, що сприяють збільшенню випадків пандемій",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/06/image1.jpg"
+    },
+    {
+        "infographic_id": "56",
+        "infographic_title": "Очищення забрудненої води",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/06/image3-2-1024x1024.png"
+    },
+    {
+        "infographic_id": "57",
+        "infographic_title": "Статистика вакцинації від COVID-19 в Україні",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/06/image5-1-1-1024x1024.png"
+    },
+    {
+        "infographic_id": "58",
+        "infographic_title": "Побічні ефекти після вакцинації від COVID-19 у Європі",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/06/image1-5-768x768.png"
+    },
+    {
+        "infographic_id": "59",
+        "infographic_title": "Рівні біологічної безпеки лабораторій",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/06/image1-1-1.png"
+    },
+    {
+        "infographic_id": "60",
+        "infographic_title": "Перші дії в разі отруєння аміаком",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/06/image1-4.jpg"
+    },
+    {
+        "infographic_id": "61",
+        "infographic_title": "Статистика захворювання на ВІЛ",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/06/39-1.png"
+    },
+    {
+        "infographic_id": "62",
+        "infographic_title": "Памʼятка мешканцям південних регіонів",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/07/40-ua.png"
+    },
+    {
+        "infographic_id": "63",
+        "infographic_title": "Хто має право на безоплатну психологічну реабілітацію?",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/07/image2-3-768x768.png"
+    },
+    {
+        "infographic_id": "64",
+        "infographic_title": "Охоплення дітей вакцинацією",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/07/image2-1-768x768.jpg"
+    }
 ]
