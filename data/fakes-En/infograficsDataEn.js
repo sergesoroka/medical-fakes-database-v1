@@ -199,4 +199,4 @@ export const infograficsDataEn = [
         "infographic_title": "Who cannot be a blood donor?",
         "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/voxcheck-eng4.jpg"
     },
- 
+]
