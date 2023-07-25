@@ -158,5 +158,45 @@ export const infograficsDataEn = [
         "infographic_id": "32",
         "infographic_title": "Who can apply for organ donation?",
         "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/voxcheck-eng-1024x1024.jpeg"
-    }
-]
+    },
+    {
+        "infographic_id": "33",
+        "infographic_title": "Russia is destroying ukrainian medicine",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/voxcheck2-eng-768x768.png"
+    },
+    {
+        "infographic_id": "34",
+        "infographic_title": "Number of transplant operations",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/01/voxcheck1-eng-768x768.png"
+    },
+    {
+        "infographic_id": "35",
+        "infographic_title": "The Number of ambulances from partners",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/02/voxcheck2-768x1044.jpg"
+    },
+    {
+        "infographic_id": "36",
+        "infographic_title": "Reforms save lives",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/02/voxcheck-eng.jpeg"
+    },
+    {
+        "infographic_id": "37",
+        "infographic_title": "The main symptoms of tuberculosis",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/02/voxcheck-eng-1.jpeg"
+    },
+    {
+        "infographic_id": "38",
+        "infographic_title": "PTSD",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/img1-768x768.jpeg"
+    },
+    {
+        "infographic_id": "39",
+        "infographic_title": "Why is transplantation in \"field conditions\" impossibe?",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/img6-768x768.jpeg"
+    },
+    {
+        "infographic_id": "40",
+        "infographic_title": "Who cannot be a blood donor?",
+        "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/voxcheck-eng4.jpg"
+    },
+ 

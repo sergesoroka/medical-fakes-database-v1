@@ -1,3 +1,4 @@
+
 export const infograficsData = [
     {
         "infographic_id": "1",
@@ -199,4 +200,4 @@ export const infograficsData = [
         "infographic_title": "Хто не може бути донором крові?",
         "infographic_link": "https://voxukraine.org/wp-content/uploads/2023/03/image2-2.png"
     },
-]
+ 
